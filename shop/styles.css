@@ -1,0 +1,95 @@
+/* body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+} */
+
+/* Rest of your CSS styles... */
+
+
+h1 {
+    margin-top: 20px;
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.product-container {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product-card {
+    width: 300px;
+    border: 1px solid #846ddf;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+}
+/* Style for a basic button */
+.b {
+    background-color: #3934db;
+    color: #fff;
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    font-size: 10px;
+    cursor: pointer; 
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.b:hover {
+    background-color: #2980b9; 
+}
+.kl{
+    width: 100%;
+    background-color: darkblue;
+}
+
+
+    /* Style the select element */
+    select {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        background-color: #fff;
+        font-size: 16px;
+        color: #333;
+    }
+
+    /* Style the option elements */
+    option {
+        background-color: #fff;
+        color: #333;
+    }
+
+    /* Style the select when it's focused (clicked on) */
+    select:focus {
+        border-color: #007bff;
+        outline: none; /* Remove the default outline */
+    }
+

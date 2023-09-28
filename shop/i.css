@@ -1,0 +1,21 @@
+/* Add this CSS to your existing styles or in a separate CSS file */
+.footer {
+    display: flex;
+    
+   
+}
+
+.i_Class {
+    display: flex;
+    gap: 10px; /* Adjust the gap to control spacing between icons */
+
+}
+
+.j {
+    display: flex;
+    flex-direction: column; /* Arrange the paragraphs in a column */
+    margin: 20px;
+  
+ 
+  
+}

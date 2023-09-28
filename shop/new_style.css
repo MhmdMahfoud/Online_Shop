@@ -1,0 +1,36 @@
+/* Add hover effect and transition to product cards */
+.product-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.product-card:hover {
+    transform: scale(1.05); /* Increase the size slightly on hover */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a subtle box shadow on hover */
+    cursor: pointer;
+}
+
+/* Other CSS styles for your product cards */
+.product-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-card h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.product-card s {
+    color: red;
+}
+
+.product-card p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 10px 0;
+}
